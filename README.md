@@ -10,3 +10,9 @@ A common problem plaguing many college students is finding food that fits with d
 
 ## Our Process
 no clue what you guys did...
+
+## Our Product
+Our final product is a user interface that allows users to tell the application their dietary restrictions (if any) and the cuisine/food type they're currently in the mood for. Our program will then consider the data we trained it on to determine the best possible option for on-campus dining to satisfy their current needs. 
+
+## Fallbacks
+Due to the time restriction, we weren't able to build up our application as much as we had hoped. We limited the options to just a few of the retail options on campus (Hawk's Nest, Common Grounds, The Grind, and Global Cafe). Since we weren't able to incorporate the dining halls, we didn't have any certified options for halal or kosher diets. Further, since we built the data sets ourselves from publicly provided information, we didn't have exact ingredients and methods of preparation, so much of the possible information was missing. In the future, we'd like to cooperate with the dining services at Lehigh to gain a much more comprehensive knowledge of the dining options available. We also weren't able to consider the time of day when the user accesses the application, which would restrict which food locations are currently open and available to the student. 
