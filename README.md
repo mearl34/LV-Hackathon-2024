@@ -6,10 +6,10 @@ Campus food recommendations based on chosen dietary restrictions!!
 
 
 ## About our Project
-A common problem plaguing many college students is finding food that fits with dietary restrictions. Students who must follow vegan, vegetarian, pescetarian, gluten-free, dairy-free, kosher, or halal diets, for any reason, have a much more difficult experience trying to find food on campus. We decided to provide an aid to these students to help them find possible options to eat considering both what they're in the mood for and also their personal dietary needs/restrictions. 
+A common problem plaguing many college students is finding food that fits with dietary restrictions. Students who must follow vegan, vegetarian, pescetarian, gluten-free,or dairy-free, for any reason, have a much more difficult experience trying to find food on campus. We decided to provide an aid to these students to help them find possible options to eat considering both what they're in the mood for and also their personal dietary needs/restrictions. 
 
 ## The Process
-no clue what you guys did...
+We started by developing a recomendation model using AWS Personalize, with S3 storing our datasets used for training. We used a selected menus from hawks nest, common grounds, the grind, and global cafe as the set of foods to train our model. 
 
 ## The Product
 Our final product is a user interface that allows users to tell the application their dietary restrictions (if any) and the cuisine/food type they're currently in the mood for. Our program will then consider the data we trained it on to determine the best possible option for on-campus dining to satisfy their current needs. 
