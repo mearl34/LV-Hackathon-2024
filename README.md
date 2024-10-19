@@ -1,6 +1,6 @@
 ## LV-Hackathon-2024 
-# Dining Hall Food Recommendations
-Dining hall food recommendations based on chosen foods!!
+# Campus Food Recommendations
+Campus food recommendations based on chosen dietary restrictions!!
 
 **Authors:** Maisy Earl, Anthony Cutrona, Sam Briggs
 
