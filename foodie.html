@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet">
     <title>Dining Hall Diets</title>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: rgb(201, 220, 207); 
+            background-color: rgb(209, 219, 212); 
         }
         h1 {
             font-family: 'Silkscreen', sans-serif;
@@ -27,12 +27,70 @@
         ul{
             font-family: 'Silkscreen', sans-serif;
         }
+        .wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        button {
+            font-family: 'Silkscreen', sans-serif;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 170px;
+            height: 40px;
+            line-height: 1;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            border: 3px solid #13251c;
+            background: #fff;
+            color: #88a798;
+            border-radius: 40px;
+            cursor: pointer;
+            overflow: hidden;
+            transition: all .35s;
+        }
+        button:hover {
+            background: #54806b;
+            color: #fff;
+        }
+        button span {
+            opacity: 1;
+            visibility: visible;
+            transition: all .35s;
+        }
+        button.is_active {
+            width: 40px;
+            height: 40px;
+        }
+        button.is_active .success {
+            opacity: 1;
+            visibility: visible;
+        }
+        button.is_active .success svg {
+            margin-top: 50%;
+            transform: translateY(-50%) rotate(720deg) scale(1);
+        }
+        button.is_active span {
+            opacity: 0;
+            visibility: hidden;
+        }
+        
     </style>
 </head>
 <body>
-    <div class="header">
-        <!--<img src="https://png.pngtree.com/png-clipart/20190912/ourmid/pngtree-pixel-fruit-pack-png-image_1728160.jpg" alt="Logo"> -->
-        <h1 style="text-align: center;">Dining Hall Diets</h1>
+    <div class="header" style="text-align: center;">
+        <div style="display: inline-block; vertical-align: middle;">
+            <img src="https://t3.ftcdn.net/jpg/02/10/29/84/360_F_210298466_Ciy7DwrpTuOmogHl7u2DHzZBlEMjrbGu.png" alt="A croissant" width="100" height="100">
+        </div>
+        <div style="display: inline-block; vertical-align: middle;">
+            <h1>Dining Hall Diets</h1>
+        </div>
+        <div style="display: inline-block; vertical-align: middle;">
+            <img src="https://png.pngtree.com/png-clipart/20240505/original/pngtree-pixel-art-croissants-png-image_15016153.png" alt="A croissant" width="150" height="150">
+        </div>
     </div>
     <div class="header">
         <!--<img src="https://png.pngtree.com/png-clipart/20190912/ourmid/pngtree-pixel-fruit-pack-png-image_1728160.jpg" alt="Logo"> -->
@@ -63,33 +121,48 @@
                 <input type="checkbox" name="dairy_free" value="true">
                 Dairy-Free
             </label><br><br>
-
-            <input type="submit" value="Submit">
+            <br>
+            <div class="wrapper">
+                <button type = "submit" class="submit">
+                    <span>Submit</span>
+                    <div class="success">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  viewBox="0 0 29.756 29.756" style="enable-background:new 0 0 29.756 29.756;" xml:space="preserve">
+                            <path d="M29.049,5.009L28.19,4.151c-0.943-0.945-2.488-0.945-3.434,0L10.172,18.737l-5.175-5.173   c-0.943-0.944-2.489-0.944-3.432,0.001l-0.858,0.857c-0.943,0.944-0.943,2.489,0,3.433l7.744,7.752   c0.944,0.943,2.489,0.943,3.433,0L29.049,8.442C29.991,7.498,29.991,5.953,29.049,5.009z"/>
+                        </svg>
+                    </div>
+                </button>
+            </div>
         </form>
-        <div class="wrapper">
-            <button class="">
-                <span>Submit</span>
-                <div class="success">
-                <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  viewBox="0 0 29.756 29.756" style="enable-background:new 0 0 29.756 29.756;" xml:space="preserve">
-                
-                <path d="M29.049,5.009L28.19,4.151c-0.943-0.945-2.488-0.945-3.434,0L10.172,18.737l-5.175-5.173   c-0.943-0.944-2.489-0.944-3.432,0.001l-0.858,0.857c-0.943,0.944-0.943,2.489,0,3.433l7.744,7.752   c0.944,0.943,2.489,0.943,3.433,0L29.049,8.442C29.991,7.498,29.991,5.953,29.049,5.009z"/>
-                </svg>
-                </div>
-            </button>
-        </div>
 
+        <br>
         <h2 style="text-align: center;">Recommended Items</h2>
         <div style="text-align: center;">
             {% if items and items|length > 0 %}
                 <ul style="list-style-type: none; padding: 0;">
                     {% for item in items %}
-                        <li>{{ item['itemId'] }}</li>
+                        <li>{{ item }}</li>
                     {% endfor %}
                 </ul>
             {% else %}
-                <p>No recommendations available.</p>
+            <p style="font-family: 'Silkscreen', sans-serif;">Please choose preferences.</p>
             {% endif %}
         </div>
     </div>
 </body>
 </html>
+
+
+
+
+<script>
+    let btn = document.querySelector("submit");
+
+    btn.addEventListener("click", active);
+
+    function active() {
+    btn.classList.toggle("is_active");
+    }
+</script>
+
+
+
