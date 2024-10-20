@@ -21,5 +21,5 @@ Due to the time restriction, we weren't able to build up our application as much
 
 `Amazon Personalize`     `S3`     `Python`     `HTML`     `CSS`    `Javascript`
 
-#Youtube Link:
+Youtube Link:
 https://youtu.be/GPPT-Gm_HM4
