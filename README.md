@@ -19,5 +19,5 @@ Due to the time restriction, we weren't able to build up our application as much
 
 ## Built With
 ```
-git status
+HTML    css    python    Amazon-Personalize
 ```
