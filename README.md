@@ -18,4 +18,6 @@ Our final product is a user interface that allows users to tell the application 
 Due to the time restriction, we weren't able to build up our application as much as we had hoped. We limited the options to just a few of the retail options on campus (Hawk's Nest, Common Grounds, The Grind, and Global Cafe). Since we weren't able to incorporate the dining halls, we didn't have any certified options for halal or kosher diets. Further, since we built the data sets ourselves from publicly provided information, we didn't have exact ingredients and methods of preparation, so much of the possible information was missing. We wished to have a bigger dataset as well, but due to the time to create one, and the increased training time, we could not. Another large issue was the implementation of AWS Personalize into the python program, as many aspects we struggled with, due to limited instructions found online. This resulted in many work around solutions, which could be improved, resulting in better choices by the model.
 
 ## Built With
-''' HTML '''
+''' 
+HTML
+'''
