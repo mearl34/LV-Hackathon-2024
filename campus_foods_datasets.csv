@@ -1,0 +1,135 @@
+ITEM_ID,PRICE,CATEGORY_L1,VEGETARIAN,PESKETARIAN,GLUTEN_FREE,DAIRY_FREE,PRODUCT_DESCRIPTION,RESTAURANT_ID
+Good Fried Chicken Sandwich,5,no,no,no,no,no,sandiwches/wraps,Hawk's Nest
+Deluxe Good Fried Chicken Sandwich,5,no,no,no,no,no,sandiwches/wraps,Hawk's Nest
+Red Dragon Chicken Sandwich,5,no,no,no,no,no,sandwiches/wraps,Hawk's Nest
+Good Fried Chicken Wrap,5,no,no,no,no,no,sandwiches/wraps,Hawk's Nest
+Good Chicken Ceaser Wrap,5,no,no,no,no,no,sandwiches/wraps,Hawk's Nest
+Good Fried Tenders,5,no,no,no,no,no,american,Hawk's Nest
+Vegan Tenders,5,yes,yes,yes,no,no,american,Hawk's Nest
+Good Fried Bites,5,no,no,no,no,no,american,Hawk's Nest
+Cauliflower Bites,5,yes,yes,yes,no,no,american,Hawk's Nest
+Fries,5,yes,yes,yes,no,yes,american,Hawk's Nest
+Mozzarella Sticks,5,no,yes,yes,no,no,italian-american,Hawk's Nest
+Korean BBQ (Bowl/Burrito/Gyro/Salad/Kimbap),5,no,no,no,no,no,korean ,Hawk's Nest
+"Sweet & Spicy Korean Chicken (Bowl/Burrito/Gyro/Salad, Kimbap)",5,no,no,no,no,no,korean ,Hawk's Nest
+Spicy Korean Pork (Bowl/Burrito/Gyro/Salad/Kimbap),5,no,no,no,no,no,korean ,Hawk's Nest
+Ginger Scallion Impossible (Bowl/Burrito/Gyro/Salad/Kimbap),5,yes,yes,yes,no,yes,korean ,Hawk's Nest
+Falaffel (Bowl/Burrito/Gyro/Salad/Kimbap),5,yes,yes,yes,no,yes,korean ,Hawk's Nest
+Hummus & Pita,5,no,yes,yes,no,no,korean ,Hawk's Nest
+General Tso Chicken (base),5,no,no,no,no,no,"asian, chinese-american",Hawk's Nest
+Teriyaki Chicken (base),5,no,no,no,no,no,"asian, japanese-american",Hawk's Nest
+Firecracker Shrimp (base),5,no,no,yes,no,no,"asian, chiense-american",Hawk's Nest
+Spicy Szechuan Beef (base),5,no,no,no,no,no,"asian, chinese-american",Hawk's Nest
+Chicken Dumplings,5,no,no,no,no,no,asian,Hawk's Nest
+Vegetable Egg Rolls,5,no,yes,yes,no,no,"asian, chinese-american",Hawk's Nest
+Carne Asada (Tacos/Burritos/Taco Bowls/Taco Salads/Quesadillas/Rice Bowls/Nachos),5,no,no,no,no,no,mexican,Hawk's Nest
+Pork Carnitas (Tacos/Burritos/Taco Bowls/Taco Salads/Quesadillas/Rice Bowls/Nachos),5,no,no,no,no,no,mexican,Hawk's Nest
+Buffalo Chicken (Tacos/Burritos/Taco Bowls/Taco Salads/Quesadillas/Rice Bowls/Nachos),5,no,no,no,no,no,mexican,Hawk's Nest
+Grilled Chicken (Tacos/Burritos/Taco Bowls/Taco Salads/Quesadillas/Rice Bowls/Nachos),5,no,no,no,no,no,mexican,Hawk's Nest
+Tex Mex Veggie (Tacos/Burritos/Taco Bowls/Taco Salads/Quesadillas/Rice Bowls/Nachos),5,no,yes,yes,no,no,mexican,Hawk's Nest
+Plant-Based Crumbles (Tacos/Burritos/Taco Bowls/Taco Salads/Quesadillas/Rice Bowls/Nachos),5,no,yes,yes,no,no,mexican,Hawk's Nest
+Cheese Quesadilla,5,no,yes,yes,no,no,mexican,Hawk's Nest
+Chips & Salsa,5,yes,yes,yes,no,yes,mexican,Hawk's Nest
+Chips & Guacamole,5,yes,yes,yes,no,yes,mexican,Hawk's Nest
+Chips & Cheese Sauce,5,no,yes,yes,no,no,mexican,Hawk's Nest
+Penne & Vodka Sauce,5,no,yes,yes,no,no,italian-american,Hawk's Nest
+Peanut Butter & Jelly,5,yes,yes,yes,no,yes,sandiwches/wraps,Hawk's Nest
+"Pesto, Tomato, and Mozzarella Panini",5,no,yes,yes,no,no,sandwiches/wraps,Hawk's Nest
+Garden Salad,5,yes,yes,yes,yes,yes,"american, salad",Hawk's Nest
+Chicken Ceaser Salad,5,no,no,no,no,no,"american, salad",Hawk's Nest
+Mac-n-Cheese,5,no,yes,yes,no,no,american,Hawk's Nest
+BBQ Pulled Pork Dinner,5,no,no,no,no,no,american,Hawk's Nest
+BBQ Pulled Pork Mac-n-Cheese,5,no,no,no,no,no,american,Hawk's Nest
+Turkey Dinner,5,no,no,no,no,no,american,Hawk's Nest
+Egg & Cheese (Bagel/Biscuit/Croissant),5,no,yes,yes,yes,no,"american, breakfast",Common Grounds
+"Bacon, Egg, & Cheese (Bagel/Biscuit/Croissant)",5,no,no,no,no,no,"american, breakfast",Common Grounds
+"Ham, Egg, & Cheese (Bagel/BIscuit/Croissant)",5,no,no,no,no,no,"american, breakfast",Common Grounds
+"Sausage, Egg, & Cheese (Bagel/Biscuit/Croissant)",5,no,no,no,no,no,"american, breakfast",Common Grounds
+"Turkey Sausage, Egg, & Cheese (Bagel/Biscuit/Croissant)",5,no,no,no,no,no,"american, breakfast",Common Grounds
+Mediterranean Egg White Wrap,5,no,yes,yes,yes,no,"american, breakfast",Common Grounds
+Bagel with Butter,5,no,yes,yes,yes,no,"american, breakfast",Common Grounds
+Bagel with Cream Cheese,5,no,yes,yes,yes,no,"american, breakfast",Common Grounds
+Italian Sub,5,no,no,no,no,no,sandwiches/wraps,Common Grounds 
+Club Sub,5,no,no,no,no,no,sandwiches/wraps,Common Gounds 
+"Buffalo Chicken, Bacon, & Ranch Sub",5,no,no,no,no,no,sandwiches/wraps,Common Grounds 
+Roaster Turkey Ranch Sub,5,no,no,no,no,no,sandwiches/wraps,Common Grounds
+"Honey Mustard, Ham, & Swiss Sub",5,no,no,no,no,no,sandwiches/warps,Common Grounds 
+Meatball Marinara Sub,5,no,no,no,no,no,sandwiches/wraps,Common Grounds
+Mediterranean Veggie Sub,5,yes,yes,yes,yes,yes,sandwiches/wraps,Common Grounds
+Zesty Roast Beef & Cheddar Sub,5,no,no,no,no,no,sandwiches/wraps,Common Grounds
+Tuna Salad Sub,5,no,no,yes,yes,no,sandwiches/wraps,Common Grounds
+Chicken Salad Sub,5,no,no,no,yes,no,sandwiches/wraps,Common Grounds
+Grilled Chicken BYO Salad,5,no,no,no,no,yes,"american, salad",Common Grounds
+Albacore Tuna BYO Salad,5,no,no,yes,yes,no,"american, salad",Common Grounds 
+Grilled Tofu BYO Salad,5,yes,yes,yes,yes,yes,"american, salad",Common Gounds 
+Egg & Cheese (Bagel/Biscuit/Croissant),5,no,yes,yes,no,no,"american, breakfast",The Grind
+"Ham, Egg, & Cheese (Bagel/Biscuit/Croissant)",5,no,no,no,no,no,"american, breakfast",The Grind
+"Bacon, Egg, & Cheese (Bagel/Biscuit/Croissant)",5,no,no,no,no,no,"american, breakfast",The Grind
+"Sausage, Egg, & Cheese (Bagel/Biscuit/Croissant)",5,no,no,no,no,no,"american, breakfast",The Grind
+"Turkey Sausage, Egg, & Cheese (Bagel/Biscuit/Croissant)",5,no,no,no,no,no,"american, breakfast",The Grind
+Bagel with Butter,5,no,yes,yes,no,no,"american, breakfast",The Grind
+Bagel with Cream Cheese,5,no,yes,yes,no,no,"american, breakfast",The Grind
+Croissant,5,no,yes,yes,no,no,"american, breakfast",The Grind
+Muffin,5,on,yes,yes,no,no,"american, breakfast",The Grind
+Donut,5,no,yes,yes,no,no,"american, breakfast",The Grind
+Cookie,5,no,yes,yes,no,no,"american, dessert",The Grind
+Lehigh Brownie,5,no,yes,yes,no,no,"american, breakfast",The Grind
+Steel-Cut Oatmeal,5,no,yes,yes,no,no,"american, breakfast",The Grind
+California Turkey Club,5,no,no,no,no,no,sandwiches/wraps,The Grind
+Garlic Chicken Ceaser Ciabatta,5,no,no,no,no,no,sandwiches/wraps,The Grind
+Tomatoc Mozzarella Focaccia,5,no,yes,yes,no,no,sandwiches/wraps,The Grind
+Pollo Rustica Panini,5,no,no,no,no,no,sandwiches/wraps,The Grind 
+Artisan Italian Baguette,5,no,no,no,no,no,sandwiches/wraps,The Grind
+Ham & Swiss Pretzel Roll,5,no,no,no,no,no,sandwiches/wraps,The Grind
+Tuna BYO Poke,5,no,no,yes,yes,yes,"asian, japanese-american",Global Cafe
+Salmon BYO Poke,5,no,no,yes,yes,yes,"asian, japanese-american",Global Cafe
+Shrimp BYO Poke,5,no,no,yes,yes,yes,"asian, japanese-american",Global Cafe
+Krab Stick BYO Poke,5,no,no,yes,yes,no,"asian, japanese-american",Global Cafe
+Spicy Krab BYO Poke,5,no,no,yes,yes,no,"asian, japanese-american",Global Cafe
+Inari Tofu BYO Poke,5,yes,yes,yes,yes,yes,"asian, japanese-american",Global Cafe
+Cream Cheese Rangoon,5,no,yes,yes,no,no,"asian, japanese-american",Global Cafe
+Chicken Egg Rolls,5,no,no,no,no,yes,"asian, japanese-american",Global Cafe
+Ginger Chicken Potstickers,5,no,no,no,no,no,"asian, japanese-american",Global Cafe
+BBQ Pork Bao,5,no,no,no,no,no,"asian, japanese-american",Global Cafe
+Chocolate Bao,5,no,yes,yes,no,no,"asian, japanese-american",Global Cafe
+Teriyaki Chicken Bao,5,no,no,no,no,no,"asian, japanese-american",Global Cafe
+Whole Wheat Vegetable Bao,5,yes,yes,yes,no,no,"asian, japanese-american",Global Cafe
+Edamame,5,yes,yes,yes,yes,yes,"asian, japanese-american",Global Cafe
+Seaweed Salad,5,yes,yes,yes,yes,yes,"asian, japanese-american",Global Cafe
+Spring Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Squid Salad,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Maui Bento (Sushi),5,no,no,yes,no,yes,"asian, japanese-american",Global Cafe
+Nagano Sushi Special,5,no,no,yes,no,yes,"asian, japanese-american",Global Cafe
+Special Cooked Sushi Combo,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Spicy Sushi Combo,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Sushi Lover Sushi Combo,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Blazing Dragon Poke Bowl,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Classica Hawaiian Poke Bowl,5,no,no,yes,no,yes,"asian, japanese-american",Global Cafe
+Crunch Inari Tofu Bowl,5,yes,yes,yes,no,yes,"asian, japanese-american",Global Cafe
+Crunchy Shrimp Bowl,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Krispy Krab Bowl,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Mango Salmon Poke Bowl,5,no,no,yes,no,yes,"asian, japanese-american",Global Cafe
+Tuna & Avocado Bowl,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+California Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Dyanmite Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Krab Salad Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Nippon Favorite Roll,5,no,no,yes,no,yes,"asian, japanese-american",Global Cafe
+Philadelphia Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Salmon Avocado Roll,5,no,no,yes,no,yes,"asian, japanese-american",Global Cafe
+Spicy California Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Spicy Salmon Roll,5,no,no,yes,no,yes,"asian, japanese-american",Global Cafe
+Spicy Tuna Roll,5,no,no,yes,no,yes,"asian, japanese-american",Global Cafe
+Tuna Avocado Roll,5,no,no,yes,no,yes,"asian, japanese-american",Global Cafe
+Veggie Roll,5,yes,yes,yes,no,yes,"asian, japanese-american",Global Cafe
+Crunchy Shrimp Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Crunchy Tofu Roll,5,yes,yes,yes,no,yes,"asian, japanese-american",Global Cafe
+Inari Tofu Roll,5,yes,yes,yes,no,yes,"asian, japanese-american",Global Cafe
+Krispy Krab Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Outer Banks Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Rainbow Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Rising Sun Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Sriracha Party ROll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Sunset Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Tempura Shrimp Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+TNT Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
+Wasabi Crunch Roll,5,no,no,yes,no,no,"asian, japanese-american",Global Cafe
